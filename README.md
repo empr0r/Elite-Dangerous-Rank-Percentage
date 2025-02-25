@@ -1,6 +1,7 @@
 # Elite Dangerous Rank Percentage Visualizer (Rust Rewrite)
 
-![Elite Dangerous](img/output.png)
+![elite_screenie](https://github.com/user-attachments/assets/1424e453-dedc-4c3a-8c0b-70e94965a151)
+.png)
 
 ## 🚀 Welcome, CMDR!
 Welcome and o7! This is a **Rust-based rewrite** of the original project by [lilykmoto](https://github.com/lilykmoto), designed to provide a **clear, percentage-based visualization** of your Elite Dangerous ranks.
