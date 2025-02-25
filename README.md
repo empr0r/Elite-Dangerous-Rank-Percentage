@@ -1,28 +1,103 @@
-# Elite Dangerous Rank Percentage Visualizer
-## Welcome!
-Welcome and o7! I'm CMDR lilykmoto. I found it annoying that Elite Dangerous doesn't give you a percentage value for your career ranks, despite storing that in the journal file. This program aims to solve that. If you give it a journal file, it will parse the journal file and tell you how close you are to the next rank!
-![](img/output.png)
-## Program Usage
-To download the program, go to the releases section and download the `.exe` file.
+# Elite Dangerous Rank Percentage Visualizer (Rust Rewrite)
 
-This program is very simple to use. Give it a journal file, and it will give you your percentages.
-### Initial Input
-![](img/input.png)
-The program will prompt you to give it the path to the journal file you'd like to look at. By default, these are stored at `C:\Users\[USERNAME]\Saved Games\Frontier Developments\Elite Dangerous`. To get that file path, you can either:
-1. Drag and drop the file into the console window (but if you do this, make sure to click back in the terminal window, otherwise pressing enter will cause the file to open!)
-1. Right click the file and click "Copy as Path". Then, paste that into the console window.
+![Elite Dangerous](img/output.png)
 
-Note: you *do not* have to remove the quotation marks.
+## 🚀 Welcome, CMDR!
+Welcome and o7! This is a **Rust-based rewrite** of the original project by [lilykmoto](https://github.com/lilykmoto), designed to provide a **clear, percentage-based visualization** of your Elite Dangerous ranks.
 
-Once the file path is in the program, press enter. The program will greet you by your CMDR name and pull your latest rank percentages.
+Elite Dangerous doesn’t show you rank progression percentages, but they **are** stored in your journal files. This program parses those files and provides a **detailed breakdown** of your progression!
 
-### Checking for More Progress
-If you would like to check for further progression in the same file, quit to the main menu in Elite and log back in to Open, Private Group, or Solo. It doesn't matter which. Progress values are only written once you either initially log in or relog. Once you're back in your ship, enter "Y" (lowercase or capital, it doesn't matter), and the program will output your new percentages.
+---
 
-## Closing
+## 📌 Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+  - [Linux Installation](#linux-installation)
+  - [Windows Installation](#windows-installation)
+- [Usage](#usage)
+  - [Providing a Journal File](#providing-a-journal-file)
+- [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
 
-I'd appreciate it if you could give me feedback on the program! I'd also love to hear if you have any ideas that I could add to the program! If you encountered any bugs, I'd love to hear about those too! If you'd like to say anything about the program, feel free to fill out [this Google form.](https://forms.gle/MtJnFgNgtidePRE67)
+---
 
-Thank you so much!
+## 🎯 Features
+✅ Parses Elite Dangerous journal files for rank progress values
+✅ Displays **rank percentage progress** towards the next rank
+✅ Shows **detailed progress bars** for each rank
+✅ Works on **Windows, Linux, and Proton** installations
+✅ Simple, lightweight, and fast execution
 
-o7 CMDR.
+---
+
+## 🔧 Installation
+
+### 🐧 Linux Installation
+Ensure you have **Rust** installed. If not, install it with:
+```sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+Then, clone the repository:
+```sh
+git clone https://github.com/your-username/original-project.git
+cd original-project
+```
+To run the program without compiling:
+```sh
+cargo run
+```
+To build a release version:
+```sh
+cargo build --release
+```
+
+### 🖥 Windows Installation
+1. Install Rust using [rustup](https://rustup.rs/).
+2. Open **PowerShell** and run:
+```powershell
+git clone https://github.com/your-username/original-project.git
+cd original-project
+```
+3. To run the program without compiling:
+```powershell
+cargo run
+```
+4. To build a release version:
+```powershell
+cargo build --release
+```
+
+---
+
+## 🕹 Usage
+### 📂 Providing a Journal File
+
+The program will prompt you to **enter the path to your Elite Dangerous journal file**.
+
+By default, these are stored at:
+- **Windows**: `C:\Users\[USERNAME]\Saved Games\Frontier Developments\Elite Dangerous`
+- **Linux (Proton)**: `/Path-to-SteamLibrary/steamapps/compatdata/359320/pfx/drive_c/users/steamuser/Saved Games/Frontier Developments/Elite Dangerous`
+
+To get that file path, you can either:
+1. **Drag and drop the file** into the terminal window (click back into the window before pressing Enter!).
+2. **Right-click the file**, select **“Copy as Path”**, then paste it into the console.
+
+💡 *No need to remove quotation marks!* The program will handle that automatically.
+
+---
+
+## 🤝 Contributing
+Pull requests and suggestions are welcome! Feel free to open an **issue** or **PR** to discuss improvements.
+
+---
+
+## 🎖 Acknowledgments
+This project is a Rust rewrite of the original [Elite Dangerous Rank Percentage Visualizer](https://github.com/lilykmoto/original-project) by **CMDR lilykmoto**. Special thanks to her for the original concept and implementation! 🫡
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
+**o7, CMDR! Fly safe!** 🚀
