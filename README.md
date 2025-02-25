@@ -98,6 +98,6 @@ This project is a Rust rewrite of the original [Elite Dangerous Rank Percentage 
 ---
 
 ## 📜 License
-This project is licensed under the **MIT License**.
+This project is licensed under the **MIT License**. See **LICENSE** for more details.
 
 **o7, CMDR! Fly safe!** 🚀
