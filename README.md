@@ -23,11 +23,11 @@ Elite Dangerous doesn’t show you rank progression percentages, but they **are*
 ---
 
 ## 🎯 Features
-✅ Parses Elite Dangerous journal files for rank progress values
-✅ Displays **rank percentage progress** towards the next rank
-✅ Shows **detailed progress bars** for each rank
-✅ Works on **Windows, Linux, and Proton** installations
-✅ Simple, lightweight, and fast execution
+1. ✅ Parses Elite Dangerous journal files for rank progress values
+2. ✅ Displays **rank percentage progress** towards the next rank
+3. ✅ Shows **detailed progress bars** for each rank
+4. ✅ Works on **Windows, Linux, and Proton** installations
+5. ✅ Simple, lightweight, and fast execution
 
 ---
 
